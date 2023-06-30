@@ -1,0 +1,40 @@
+@media (min-width: 1024px) {
+  .container {
+    display: flex;
+    padding: 0rem 0rem 2rem 0rem;
+  }
+
+  .stickyContainer {
+    flex-basis: 33%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding-top: 5%;
+    color: white;
+    height: fit-content;
+    width: 583px;
+  }
+
+  .scrollableContainer {
+    flex-basis: 67%;
+    height: 1200px;
+    overflow-y: scroll;
+  }
+
+  .scrollableContainer div div {
+    width: 540px;
+  }
+
+  .stickyContainer div {
+    width: 600px;
+  }
+
+  .scrollableContainer::-webkit-scrollbar {
+    display: none;
+  }
+
+  .sticky {
+    z-index: 1;
+  }
+
+}

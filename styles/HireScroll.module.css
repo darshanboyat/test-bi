@@ -1,0 +1,72 @@
+@media (min-width: 1024px) {
+    .container {
+        display: flex;
+        padding: 2rem 0rem;
+      }
+      
+      .stickyContainer {
+        flex-basis: 33%;
+        position: -webkit-sticky;
+  position: sticky;
+        top: 0;
+        padding-top: 5%;
+        color: white;
+        height: fit-content;
+        width: 583px;
+      }
+      
+      .scrollableContainer {
+        flex-basis: 67%;
+        height: auto;
+        overflow-y: scroll;
+    }
+    .scrollableContainer div div{
+          width: 540px;
+        }
+        .stickyContainer div{
+            width: 600px;
+      }
+      .scrollableContainer::-webkit-scrollbar{
+        display: none;
+      }
+      .sticky {
+        z-index: 1;
+      }
+      
+      .NstickyContainer {
+        flex-basis: 33%;
+        position: -webkit-sticky;
+  position: sticky;
+        top: 0;
+        padding-top: 5%;
+        color: white;
+        height: fit-content;
+        width: 583px;
+      }
+      
+      .NscrollableContainer {
+        flex-basis: 67%;
+        height: 1000px;
+        overflow-y: scroll;
+    }
+    .NscrollableContainer div div{
+          width: 540px;
+        }
+        .NstickyContainer div{
+            width: 600px;
+      }
+      .NscrollableContainer::-webkit-scrollbar{
+        display: none;
+      }
+      .Nsticky {
+        z-index: 1;
+      }
+  
+} 
+
+
+
+
+
+
+
